@@ -79,7 +79,31 @@ section {
 }
 
 .hero {
-  background: linear-gradient(145deg, #ffffff, #f2f8f8);
+  position: relative;
+  overflow: hidden;
+  background-image:
+    linear-gradient(112deg, rgba(8, 18, 32, 0.90) 0%, rgba(8, 18, 32, 0.82) 52%, rgba(8, 18, 32, 0.70) 100%),
+    url("../assets/images/hero-dotplot-slide1.png");
+  background-size: 160% auto;
+  background-position: 12% center;
+  color: #f8fafc;
+}
+
+.hero .eyebrow,
+.hero .lede {
+  color: rgba(248, 250, 252, 0.93);
+}
+
+.hero h1 {
+  color: #ffffff;
+  text-wrap: balance;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+}
+
+.hero .button-secondary {
+  background: rgba(255, 255, 255, 0.9);
+  color: #0f766e;
+  border-color: rgba(255, 255, 255, 0.95);
 }
 
 .eyebrow {
@@ -184,5 +208,10 @@ h1, h2, h3 { line-height: 1.2; margin-top: 0.25rem; }
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .hero {
+    background-size: cover;
+    background-position: 20% center;
   }
 }
