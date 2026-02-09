@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reagan Creed | Projects</title>
+  <title>Reagan Reed | Projects</title>
+  <meta name="description" content="Selected research and technical projects by Reagan Reed." />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1>Projects</h1>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Reagan Reed</a>
       <nav>
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
@@ -24,55 +25,64 @@
 
   <main class="container">
     <section>
-      <h2>Selected Projects</h2>
-      <article>
-        <h3>Developmental Genetics Analysis Pipeline</h3>
-        <p>
-          Reproducible analysis workflows in R/Python for developmental genetics datasets, with an emphasis on transparent
-          methods and version-controlled outputs.
-        </p>
-      </article>
+      <h1>Selected Projects</h1>
+      <p class="lede">Representative projects spanning wet-lab biology, phenotype screening, and computational analysis.</p>
+      <div class="card-grid">
+        <article class="card">
+          <h2>NCED-targeted seed trait program (PhD)</h2>
+          <p>
+            Developed CRISPR workflows targeting NCED family candidates in tomato to test links between ABA-related pathways,
+            dormancy, and germination performance.
+          </p>
+          <p><strong>Methods:</strong> vector design, transformation screening, genotyping, and comparative germination assays.</p>
+        </article>
 
-      <article>
-        <h3>Plant Trait Quantification Workflow</h3>
-        <p>
-          Exploratory and statistical workflows for trait quantification and interpretation in plant biology experiments.
-        </p>
-      </article>
+        <article class="card">
+          <h2>Stress resilience germination assays</h2>
+          <p>
+            Designed and executed phenotype pipelines to compare wild-type and mutant lines under high-temperature and osmotic stress.
+          </p>
+          <p><strong>Methods:</strong> controlled-condition assays, germination tracking, and statistical comparisons in R/Python.</p>
+        </article>
 
-      <article>
-        <h3>Research Figure Highlights (from presentation decks)</h3>
-        <p>
-          Selected graphics below were extracted from recent research presentations to illustrate representative analysis and
-          communication outputs.
-        </p>
+        <article class="card">
+          <h2>RNA-seq and developmental transition analysis</h2>
+          <p>
+            Processed large RNA-seq datasets on HPC infrastructure to identify differential expression patterns across developmental stages.
+          </p>
+          <p><strong>Methods:</strong> QC, PCA, differential expression workflows, and reproducible reporting.</p>
+        </article>
+      </div>
+      <p class="todo">TODO: Add links to public code, preprints, or data where shareable.</p>
+    </section>
 
-        <div class="image-grid">
-          <figure class="research-figure">
-            <img src="assets/images/box/prb-seminar-2024-figure-1.png" alt="Scientific poster-style figure from PRB Seminar May 2024 presentation." loading="lazy" />
-            <figcaption>PRB Seminar (May 2024): multi-panel research figure used in seminar slides.</figcaption>
-          </figure>
+    <section>
+      <h2>Research figure highlights</h2>
+      <div class="image-grid">
+        <figure class="research-figure">
+          <img src="assets/images/box/prb-seminar-2024-figure-1.png" alt="Research figure from PRB Seminar May 2024 presentation" loading="lazy" />
+          <figcaption>PRB Seminar (May 2024): representative multi-panel analysis figure.</figcaption>
+        </figure>
 
-          <figure class="research-figure">
-            <img src="assets/images/box/prb-seminar-2024-figure-2.png" alt="Data-rich chart figure from PRB Seminar May 2024 presentation." loading="lazy" />
-            <figcaption>PRB Seminar (May 2024): analysis figure highlighting experimental trends.</figcaption>
-          </figure>
+        <figure class="research-figure">
+          <img src="assets/images/box/prb-seminar-2024-figure-2.png" alt="Data visualization from PRB Seminar May 2024 presentation" loading="lazy" />
+          <figcaption>PRB Seminar (May 2024): data-rich chart used in project updates.</figcaption>
+        </figure>
 
-          <figure class="research-figure">
-            <img src="assets/images/box/wrsprg-2026-figure-1.png" alt="Research workflow or result figure from WRSPRG 2026 presentation." loading="lazy" />
-            <figcaption>WRSPRG 2026: featured slide graphic from annual project update.</figcaption>
-          </figure>
+        <figure class="research-figure">
+          <img src="assets/images/box/wrsprg-2026-figure-1.png" alt="Research workflow or result figure from WRSPRG 2026 presentation" loading="lazy" />
+          <figcaption>WRSPRG (2026): project update figure from research presentation materials.</figcaption>
+        </figure>
 
-          <figure class="research-figure">
-            <img src="assets/images/box/colloquium-2022-figure-1.png" alt="High-resolution scientific figure from 2022 colloquium presentation." loading="lazy" />
-            <figcaption>Colloquium (2022): high-resolution figure from invited talk materials.</figcaption>
-          </figure>
-        </div>
-      </article>
+        <figure class="research-figure">
+          <img src="assets/images/box/colloquium-2022-figure-1.png" alt="Scientific figure from 2022 colloquium presentation" loading="lazy" />
+          <figcaption>Colloquium (2022): selected figure from invited talk slides.</figcaption>
+        </figure>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container"><p>© <span id="year"></span> Reagan Creed</p></div></footer>
+  <footer class="site-footer"><div class="container"><p>© <span id="year"></span> Reagan Reed</p></div></footer>
   <script src="js/main.js"></script>
 </body>
 </html>

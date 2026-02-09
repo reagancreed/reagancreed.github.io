@@ -1,8 +1,8 @@
 # reagancreed.github.io
 
-Personal website for Reagan Creed, built as a simple static site for GitHub Pages.
+Personal website for **Reagan Reed**, built as a simple static site for GitHub Pages.
 
-## Edit guide
+## Pages
 
 - Home: `index.html`
 - Projects: `projects.html`
@@ -14,5 +14,5 @@ Personal website for Reagan Creed, built as a simple static site for GitHub Page
 
 ## Notes
 
-- Replace all `TODO` markers with final content.
-- Add CV PDF to `assets/Reagan-Creed-CV.pdf`.
+- Replace remaining `TODO` markers where details are still being confirmed.
+- Add a downloadable CV PDF once finalized.
