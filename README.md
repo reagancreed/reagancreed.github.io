@@ -7,7 +7,7 @@ Personal website for **Reagan Reed**, built as a simple static site for GitHub P
 - Home: `index.html`
 - Projects: `projects.html`
 - Publications: `publications.html`
-- Resume/Contact: `resume-contact.html`
+- Contact: `resume-contact.html`
 - About: `about.html`
 - Styling: `css/style.css`
 - Footer year script: `js/main.js`
